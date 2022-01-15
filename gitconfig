@@ -15,4 +15,4 @@
 [github]
   user = alexstophel
 [core]
-  editor = /usr/bin/vim
+  editor = /opt/homebrew/bin/nvim

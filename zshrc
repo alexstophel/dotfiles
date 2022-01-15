@@ -12,6 +12,9 @@ done
 export PATH=$PATH:~/dotfiles/bin
 export PATH=/Users/alexstophel/Development/recruiting-tech/ncsa-convoy/bin:$PATH
 
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Source aliases.
 [[ -f ~/.aliases ]] && source ~/.aliases
 
@@ -36,7 +39,4 @@ then
   compinit
 fi
 
-. /usr/local/opt/asdf/libexec/asdf.sh
-
-# Created by `pipx` on 2022-01-04 21:08:05
 export PATH="$PATH:/Users/alexstophel/.local/bin"
