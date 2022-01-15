@@ -1,5 +1,7 @@
 # Set shell to ZSH by default
-sudo apt-get install zsh;
+if [ ! "$(uname)" == "Darwin" ]; then
+    sudo apt-get install zsh;
+fi 
 chsh -s $(which zsh);
 
 # Remove existing files that might clash with symlinks
