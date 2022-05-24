@@ -40,3 +40,5 @@ then
 fi
 
 export PATH="$PATH:/Users/alexstophel/.local/bin"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
