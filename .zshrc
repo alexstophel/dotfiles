@@ -28,9 +28,6 @@ export CLICOLOR=1
 # Add .bin to the PATH
 export PATH="$HOME/.bin:$PATH"
 
-# Source fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 if type brew &>/dev/null
 then
   FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
